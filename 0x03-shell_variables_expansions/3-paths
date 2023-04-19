@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(('echo $PATH | gepr -o ":/" | wc-l'+ 1))
+echo $(('echo $PATH | gepr -0 ":/" | wC -l'+ 1))
